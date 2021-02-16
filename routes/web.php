@@ -20,3 +20,8 @@ Route::get('/', function () {
 Route::get('admin', function () {
     return view('adilkhan_kuchkarov');
 });
+
+Route::get('student/{id?}', function () {
+    return view('adilkhan_kuchkarov');
+});
+
